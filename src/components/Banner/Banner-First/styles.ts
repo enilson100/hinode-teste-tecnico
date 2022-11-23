@@ -16,7 +16,7 @@ export const SectionBannerFirst = styled.section`
   .div-banner-first {
     display: flex;
     justify-content: center;
-    width: 90%;
+    width: 95%;
     align-items: center;
     .icon-arrow {
       width: 40px;

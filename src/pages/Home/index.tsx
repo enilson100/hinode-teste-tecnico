@@ -2,6 +2,7 @@ import FirstHeader from "../../components/Header/First-Header";
 import SecondHearder from "../../components/Header/Second-Header";
 import ThirdHeader from "../../components/Header/Third-Header";
 import BannerFirst from "../../components/Banner/Banner-First";
+import FooterFirst from "../../components/Footer/Footer-First";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,10 @@ const HomePage = () => {
         <ThirdHeader />
       </header>
       <main>
-        <BannerFirst />
+        <section>
+          <BannerFirst />
+          <FooterFirst />
+        </section>
       </main>
     </>
   );
