@@ -1,9 +1,12 @@
+import Global from "./global/Global";
+import FirstPage from "./pages/First-Page";
 
 function App() {
   return (
-    <div>
-      <h1>Initialization</h1>
-    </div>
+    <>
+      <Global />
+      <FirstPage />
+    </>
   );
 }
 
