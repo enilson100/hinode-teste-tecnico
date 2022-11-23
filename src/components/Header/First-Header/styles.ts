@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
-export const DivHeaderFirst = styled.div`
+export const SectionHeaderFirst = styled.section`
   width: 100vw;
   background-color: var(--gray-0);
   height: 37.79px;
   display: flex;
   justify-content: center;
+  opacity: 98%;
 
   .div-wrap {
     width: 80%;
@@ -31,8 +32,8 @@ export const DivHeaderFirst = styled.div`
     align-items: center;
 
     .icon-user-heart {
-      width: 12.02px;
-      height: 14.13px;
+      width: 14.02px;
+      height: 17.13px;
       color: var(--color-black);
     }
     p {
@@ -45,7 +46,7 @@ export const DivHeaderFirst = styled.div`
       line-height: 22px;
       margin-left: 5px;
       text-decoration-line: underline;
-      padding: 0px 4px;
+      margin-bottom: 2px;
       margin-right: 32px;
     }
   }

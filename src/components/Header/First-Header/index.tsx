@@ -1,9 +1,9 @@
 import { RiUserHeartLine } from "react-icons/ri";
-import { DivHeaderFirst } from "./styles";
+import { SectionHeaderFirst } from "./styles";
 
 const FirstHeader = () => {
   return (
-    <DivHeaderFirst>
+    <SectionHeaderFirst>
       <div className="div-wrap">
         <div>
           <p className="paragraph-header">A Empresa</p>
@@ -16,7 +16,7 @@ const FirstHeader = () => {
           <p className="paragraph-header">Fale Conosco</p>
         </div>
       </div>
-    </DivHeaderFirst>
+    </SectionHeaderFirst>
   );
 };
 
