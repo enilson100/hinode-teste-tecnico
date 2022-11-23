@@ -18,11 +18,14 @@ export default createGlobalStyle`
 }
 
 *{
-    margin: 0px;
+  margin: 0px;
 	padding: 0px;
 	border: 0px;
 	font-size: 100%;
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
 }
 figure,span{
     margin: 0px;

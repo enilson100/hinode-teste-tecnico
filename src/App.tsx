@@ -1,11 +1,11 @@
 import Global from "./global/Global";
-import FirstPage from "./pages/First-Page";
+import HomePage from "./pages/Home";
 
 function App() {
   return (
     <>
       <Global />
-      <FirstPage />
+      <HomePage />
     </>
   );
 }
