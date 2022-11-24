@@ -7,6 +7,7 @@ export const SectionFooterFirst = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 96px;
   div {
     width: 80%;
   }
