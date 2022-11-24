@@ -13,8 +13,8 @@ export default createGlobalStyle`
     --gray-0:#FDFDFD;
    
     --font-main: "Open Sans";
-    --font-secondary:"Oswald"
-    --font-banner:"Playfair Display"
+    --font-secondary:"Oswald";
+    --font-banner:"Playfair Display";
 }
 
 *{
@@ -27,7 +27,7 @@ export default createGlobalStyle`
 body{
   overflow-x: hidden;
 }
-figure,span{
+figure{
     margin: 0px;
     padding: 0px;
     border: 0;

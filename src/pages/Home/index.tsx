@@ -3,6 +3,7 @@ import SecondHearder from "../../components/Header/Second-Header";
 import ThirdHeader from "../../components/Header/Third-Header";
 import BannerFirst from "../../components/Banner/Banner-First";
 import FooterFirst from "../../components/Footer/Footer-First";
+import ListCard from "../../components/ListCard/ListCard-First";
 
 const HomePage = () => {
   return (
@@ -16,6 +17,10 @@ const HomePage = () => {
         <section>
           <BannerFirst />
           <FooterFirst />
+        </section>
+        <section>
+          
+          <ListCard />
         </section>
       </main>
     </>

@@ -1,11 +1,17 @@
-const products = [
+import { IProducts } from "../interfaces/products.types";
+import baseLiquida from "../assets/img-cards/base-líquida.svg";
+import grace from "../assets/img-cards/grace-la-rose.svg";
+import poCompacto from "../assets/img-cards/po-compacto.svg";
+import esponja from "../assets/img-cards/esponja.svg";
+
+const products: IProducts[] = [
   {
     name: "Esponja 3D Dazzle",
     infoAdd: undefined,
     price: "36,90",
     promotion: "29,90",
     category: "more sales",
-    img: "../assets/img-cards/esponja.svg",
+    img: `${esponja}`,
     discount: undefined,
     portion: 2,
   },
@@ -15,17 +21,17 @@ const products = [
     price: "89,90",
     promotion: undefined,
     category: "more sales",
-    img: "../assets/img-cards/base-líquida.svg",
+    img: `${baseLiquida}`,
     discount: undefined,
     portion: 2,
   },
   {
-    name: "Grace La Rose Sublime Deo Colônia Pocket 15ml",
+    name: "Grace La Rose Sublime Deo Colônia Pocket",
     price: "39,90",
     infoAdd: "15ml",
     promotion: undefined,
     category: "more sales",
-    img: "../assets/img-cards/grace-la-rose.svg",
+    img: `${grace}`,
     discount: undefined,
     portion: 2,
   },
@@ -35,7 +41,7 @@ const products = [
     infoAdd: "Claro 2 Dazzle - 12g",
     promotion: undefined,
     category: "more sales",
-    img: "../assets/img-cards/po-compacto.svg",
+    img: `${poCompacto}`,
     discount: undefined,
     portion: 2,
   },
