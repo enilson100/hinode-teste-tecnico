@@ -16,8 +16,11 @@ const Card = ({ name, price, infoAdd, img }: IPropsCard) => {
       </div>
 
       <div className="card-info">
-        <p className="card-info-desc">{name}</p>
-        <p className="card-info-desc">{infoAdd}</p>
+        <div className="div-card-info">
+          <p className="card-info-desc">{name}</p>
+          <p className="card-info-desc">{infoAdd}</p>
+        </div>
+
         <div className="card-info-stars">
           <BsStarFill className="star" />
           <BsStarFill className="star" />

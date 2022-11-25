@@ -27,9 +27,11 @@ const CardPromotion = ({
       </div>
 
       <div className="card-info">
-        <p className="card-info-desc">
-          {name} {infoAdd}
-        </p>
+        <div className="div-card-info">
+          <p className="card-info-desc">
+            {name} {infoAdd}
+          </p>
+        </div>
 
         <div className="card-info-stars">
           <BsStarFill className="star" />

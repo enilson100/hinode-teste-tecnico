@@ -18,7 +18,7 @@ export const DivDiscount = styled.div`
   background: #cf960d;
   position: relative;
 
-  bottom: 145px;
+  bottom: 155px;
   right: 220px;
   z-index: 1;
   p {

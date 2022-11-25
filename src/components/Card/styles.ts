@@ -10,13 +10,13 @@ export const LiCard = styled.li`
     background-color: rgba(247, 247, 247, 0.5);
     border: 0.5px solid #f2f2f2;
     .div-icon {
-      padding: 10px 10px 0px 0px;
+      padding: 15px 15px 0px 0px;
       width: 100%;
       display: flex;
       justify-content: end;
-      .icono-heart {
-        width: 21px;
-        height: 19.43px;
+      .icon-heart {
+        width: 25px;
+        height: 25px;
         color: var(--gray-1);
       }
     }
@@ -32,12 +32,14 @@ export const LiCard = styled.li`
       height: 198px;
     }
   }
+  .div-card-info {
+    margin-top: 6px;
+  }
   .card-info-desc {
     font-family: var(--font-secondary);
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-
     color: var(--color-black);
   }
   .card-info-stars {

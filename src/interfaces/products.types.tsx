@@ -23,3 +23,9 @@ export interface IProducts {
   discount?: string | undefined;
   portion: number;
 }
+
+export interface IHint {
+  id: number;
+  category: string;
+  img: string;
+}

@@ -4,6 +4,7 @@ import ThirdHeader from "../../components/Header/Third-Header";
 import BannerFirst from "../../components/Banner/Banner-First";
 import FooterFirst from "../../components/Footer/Footer-First";
 import ListCard from "../../components/ListCard/ListCard-First";
+import ListCardHint from "../../components/ListCardHint";
 
 const HomePage = () => {
   return (
@@ -19,8 +20,10 @@ const HomePage = () => {
           <FooterFirst />
         </section>
         <section>
-          
           <ListCard />
+        </section>
+        <section>
+          <ListCardHint />
         </section>
       </main>
     </>
