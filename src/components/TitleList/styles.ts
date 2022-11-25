@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const TitleListStyle = styled.div`
   display: flex;
   height: 46px;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   width: 1109px;
   margin-bottom: 40px;
 
@@ -12,21 +13,19 @@ export const TitleListStyle = styled.div`
     font-style: normal;
     font-weight: 300;
     font-size: 46px;
-    margin-left: 380px;
     letter-spacing: 3px;
     color: var(--color-black);
     text-align: center;
   }
   div {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
     cursor: pointer;
     .div-end {
-      margin-left: 350px;
       display: flex;
       align-items: center;
       gap: 5px;
+      position: relative;
+      left: 630px;
+      bottom: 25px;
       color: var(--gray-1);
     }
     .icon-eyes {
@@ -39,7 +38,6 @@ export const TitleListStyle = styled.div`
       font-size: 12px;
       line-height: 22px;
 
-      text-align: right;
       text-decoration-line: underline;
 
       color: var(--gray-1);

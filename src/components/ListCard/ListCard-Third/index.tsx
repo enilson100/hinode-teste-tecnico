@@ -1,30 +1,30 @@
 import products from "../../../database/data-products";
 import { IProducts } from "../../../interfaces/products.types";
 import { useEffect, useState } from "react";
-import { SectionList } from "./styles";
+import { SectionList } from "../ListCard-First/styles";
 import TitleList from "../../TitleList";
 import Card from "../../Card";
 import CardPromotion from "../../CardPromotion";
 
-const ListCardFirst = () => {
-  const [moreSalesData, setMoreSaleData] = useState<IProducts[]>([]);
+const ListCardThird = () => {
+  const [healthyLifeData, sethealthyLifeData] = useState<IProducts[]>([]);
 
-  const moreSalesFiltered = (productsData: IProducts[]) => {
-    setMoreSaleData(
-      productsData.filter((elem) => elem.category === "more sales")
+  const healthyLifeFiltered = (productsData: IProducts[]) => {
+    sethealthyLifeData(
+      productsData.filter((elem) => elem.category === "healthy life")
     );
   };
 
   useEffect(() => {
-    moreSalesFiltered(products);
+    healthyLifeFiltered(products);
   }, []);
 
   return (
     <SectionList>
-      <TitleList name="MAIS VENDIDOS" />
+      <TitleList name="VIDA SAUDÁVEL" />
 
       <ul className="container-list">
-        {moreSalesData?.map((elem, index) =>
+        {healthyLifeData?.map((elem, index) =>
           elem.promotion ? (
             <CardPromotion
               key={index}
@@ -49,4 +49,4 @@ const ListCardFirst = () => {
     </SectionList>
   );
 };
-export default ListCardFirst;
+export default ListCardThird;

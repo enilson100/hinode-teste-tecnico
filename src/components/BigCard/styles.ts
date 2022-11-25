@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const ContainerBigCard = styled.div`
   display: flex;
   width: 100vw;
-  margin: 100px 0px 0px 0px;
+  margin: 100px 0px 100px 0px;
   justify-content: center;
+
+  height: 781px;
   img {
     width: 557px;
     height: 781px;

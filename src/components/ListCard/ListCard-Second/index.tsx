@@ -1,30 +1,30 @@
 import products from "../../../database/data-products";
 import { IProducts } from "../../../interfaces/products.types";
 import { useEffect, useState } from "react";
-import { SectionList } from "./styles";
+import { SectionList } from "../ListCard-First/styles";
 import TitleList from "../../TitleList";
 import Card from "../../Card";
 import CardPromotion from "../../CardPromotion";
 
-const ListCardFirst = () => {
-  const [moreSalesData, setMoreSaleData] = useState<IProducts[]>([]);
+const ListCardSecond = () => {
+  const [mostDesiredData, setMostDesiredData] = useState<IProducts[]>([]);
 
-  const moreSalesFiltered = (productsData: IProducts[]) => {
-    setMoreSaleData(
-      productsData.filter((elem) => elem.category === "more sales")
+  const mostDesiredFiltered = (productsData: IProducts[]) => {
+    setMostDesiredData(
+      productsData.filter((elem) => elem.category === "most desired")
     );
   };
 
   useEffect(() => {
-    moreSalesFiltered(products);
+    mostDesiredFiltered(products);
   }, []);
 
   return (
     <SectionList>
-      <TitleList name="MAIS VENDIDOS" />
+      <TitleList name="MAIS DESEJADOS" />
 
       <ul className="container-list">
-        {moreSalesData?.map((elem, index) =>
+        {mostDesiredData?.map((elem, index) =>
           elem.promotion ? (
             <CardPromotion
               key={index}
@@ -49,4 +49,4 @@ const ListCardFirst = () => {
     </SectionList>
   );
 };
-export default ListCardFirst;
+export default ListCardSecond;

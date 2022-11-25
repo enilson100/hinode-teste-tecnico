@@ -2,7 +2,15 @@ import { IProducts } from "../interfaces/products.types";
 import baseLiquida from "../assets/img-cards/base-líquida.svg";
 import grace from "../assets/img-cards/grace-la-rose.svg";
 import poCompacto from "../assets/img-cards/po-compacto.svg";
+import corps from "../assets/img-cards/corps.svg";
+import shakevanilha from "../assets/img-cards/shake-vanilha.svg";
+import shakemorango from "../assets/img-cards/shake-morango.svg";
 import esponja from "../assets/img-cards/esponja.svg";
+import luvasilicone from "../assets/img-cards/luva-silicone.svg";
+import cafeverde from "../assets/img-cards/cafe-verde.svg";
+import acido from "../assets/img-cards/acido.svg";
+import slim from "../assets/img-cards/slim.svg";
+import chah from "../assets/img-cards/cha-h.svg";
 
 const products: IProducts[] = [
   {
@@ -46,42 +54,42 @@ const products: IProducts[] = [
     portion: 2,
   },
   {
-    name: "Corps Lígnea Body Contour Gel Modelador 500g",
+    name: "Corps Lígnea Body Contour Gel Modelador",
     price: "60,00",
     infoAdd: "500g",
     promotion: undefined,
     category: "most desired",
-    img: "../assets/img-cards/corps.svg",
+    img: `${corps}`,
     discount: undefined,
     portion: 2,
   },
   {
-    name: "Shake de Vanilla H+ HND",
+    name: "Shake de Vanilla H+ HND -",
     price: "99,90",
     infoAdd: "550g",
     promotion: "79,90",
     category: "most desired",
-    img: "../assets/img-cards/shake-vanilha.svg",
+    img: `${shakevanilha}`,
     discount: "-20",
     portion: 2,
   },
   {
-    name: "Shake de Morango H+ HND - 550g",
+    name: "Shake de Morango H+ HND - ",
     price: "99,90",
     infoAdd: "550g",
     promotion: "79,90",
     category: "most desired",
-    img: "../assets/img-cards/shake-morango.svg",
+    img: `${shakemorango}`,
     discount: "-20",
     portion: 2,
   },
   {
-    name: "Luva de Silicone Creme para as Mãos Hands",
+    name: "Luva de Silicone Creme para as Hands",
     price: "25,90",
     infoAdd: "100g",
-    promotion: "29,90",
+    promotion: undefined,
     category: "most desired",
-    img: "../assets/img-cards/luva-silicone.svg",
+    img: `${luvasilicone}`,
     discount: undefined,
     portion: 2,
   },
@@ -91,7 +99,7 @@ const products: IProducts[] = [
     infoAdd: "120 cápsulas",
     promotion: undefined,
     category: "healthy life",
-    img: "../assets/img-cards/cafe-verde.svg",
+    img: `${cafeverde}`,
     discount: undefined,
     portion: 2,
   },
@@ -101,7 +109,7 @@ const products: IProducts[] = [
     infoAdd: " 30 Sachês de 4g",
     promotion: undefined,
     category: "healthy life",
-    img: "../assets/img-cards/acido.svg",
+    img: `${acido}`,
     discount: undefined,
     portion: 2,
   },
@@ -111,7 +119,7 @@ const products: IProducts[] = [
     infoAdd: "120 Cápsulas",
     promotion: undefined,
     category: "healthy life",
-    img: "../assets/img-cards/slim.svg",
+    img: `${slim}`,
     discount: undefined,
     portion: 2,
   },
@@ -121,7 +129,7 @@ const products: IProducts[] = [
     infoAdd: " 150g",
     promotion: undefined,
     category: "healthy life",
-    img: "../assets/img-cards/cha-h.svg",
+    img: `${chah}`,
     discount: undefined,
     portion: 2,
   },

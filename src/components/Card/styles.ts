@@ -11,7 +11,7 @@ export const LiCard = styled.li`
     border: 0.5px solid #f2f2f2;
     .div-icon {
       padding: 15px 15px 0px 0px;
-      width: 100%;
+
       display: flex;
       justify-content: end;
       .icon-heart {
@@ -22,7 +22,7 @@ export const LiCard = styled.li`
     }
     figure {
       width: 100%;
-      height: 100%;
+      padding-top: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
