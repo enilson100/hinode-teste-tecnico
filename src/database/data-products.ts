@@ -11,6 +11,14 @@ import cafeverde from "../assets/img-cards/cafe-verde.svg";
 import acido from "../assets/img-cards/acido.svg";
 import slim from "../assets/img-cards/slim.svg";
 import chah from "../assets/img-cards/cha-h.svg";
+import oleopernas from "../assets/img-cards/oleo-pernas.svg";
+import esfoliante2 from "../assets/img-cards/esfoliante2.svg";
+import gelhot from "../assets/img-cards/gel-hot.svg";
+import oleo140ml from "../assets/img-cards/oleo-pernas140ml.svg";
+import gel1 from "../assets/img-cards/gel1.svg";
+import gel2 from "../assets/img-cards/gel2.svg";
+import gel3 from "../assets/img-cards/gel3.svg";
+import gel4 from "../assets/img-cards/gel4.svg";
 
 const products: IProducts[] = [
   {
@@ -134,12 +142,12 @@ const products: IProducts[] = [
     portion: 2,
   },
   {
-    name: "Corps Lígnea Wonderful Gold Óleo para as  ",
+    name: "Corps Lígnea Wonderful Gold Óleo para as ",
     price: "45,00",
     infoAdd: "Pernas - 150ml",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/oleo-pernas.svg",
+    img: `${oleopernas}`,
     discount: undefined,
     portion: 2,
   },
@@ -149,7 +157,7 @@ const products: IProducts[] = [
     infoAdd: "Corporal - 200g",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/esfoliante2.svg",
+    img: `${esfoliante2}`,
     discount: undefined,
     portion: 2,
   },
@@ -159,7 +167,7 @@ const products: IProducts[] = [
     infoAdd: "60ml",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/gel-hot.svg",
+    img: `${gelhot}`,
     discount: undefined,
     portion: 2,
   },
@@ -169,7 +177,7 @@ const products: IProducts[] = [
     infoAdd: "140ml",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/oleo-pernas140ml.svg",
+    img: `${oleo140ml}`,
     discount: undefined,
     portion: 2,
   },
@@ -179,7 +187,7 @@ const products: IProducts[] = [
     infoAdd: "500g",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/gel1.svg",
+    img: `${gel1}`,
     discount: undefined,
     portion: 2,
   },
@@ -189,7 +197,7 @@ const products: IProducts[] = [
     infoAdd: "500g",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/gel2.svg",
+    img: `${gel2}`,
     discount: undefined,
     portion: 2,
   },
@@ -199,7 +207,7 @@ const products: IProducts[] = [
     infoAdd: "500g",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/gel3.svg",
+    img: `${gel3}`,
     discount: undefined,
     portion: 2,
   },
@@ -209,7 +217,7 @@ const products: IProducts[] = [
     infoAdd: "500g",
     promotion: undefined,
     category: "body and bath",
-    img: "../assets/img-cards/gel4.svg",
+    img: `${gel4}`,
     discount: undefined,
     portion: 2,
   },

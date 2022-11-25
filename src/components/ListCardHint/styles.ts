@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const SectionListCardHint = styled.li`
+export const SectionListCardHint = styled.section`
   width: 100vw;
   display: flex;
   justify-content: center;

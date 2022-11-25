@@ -21,7 +21,7 @@ const SecondHearder = () => {
             <FiSearch className="icon-search" />
           </div>
 
-          <div className="div-rigth-header">
+          <div className="div-right-header">
             <div>
               <RiUserLine className="icon-userline" />
               <h2>

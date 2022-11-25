@@ -31,6 +31,7 @@ export const SectionSecondHeader = styled.section`
     align-items: center;
     justify-content: space-around;
     margin-right: 26px;
+    margin-left: 10px;
 
     .icon-search {
       color: var(--color-black);
@@ -60,7 +61,7 @@ export const SectionSecondHeader = styled.section`
     display: flex;
     align-items: center;
   }
-  .div-rigth-header {
+  .div-right-header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
@@ -75,7 +76,7 @@ export const SectionSecondHeader = styled.section`
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
-        line-height: 22px;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
