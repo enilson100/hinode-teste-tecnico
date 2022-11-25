@@ -2,8 +2,7 @@ import products from "../../../database/data-products";
 import { IProducts } from "../../../interfaces/products.types";
 import { useEffect, useState } from "react";
 import { SectionListFirst } from "./styles";
-import { AiOutlineEye } from "react-icons/ai";
-import { TitleList } from "../../TitleList/styles";
+import TitleList from "../../TitleList";
 import Card from "../../Card";
 import CardPromotion from "../../CardPromotion";
 
@@ -22,17 +21,8 @@ const ListCard = () => {
 
   return (
     <SectionListFirst>
-      <TitleList>
-        <div className="div-wrap-title">
-          <h1>MAIS VENDIDOS</h1>
-          <div>
-            <div className="div-end">
-              <AiOutlineEye className="icon-eyes" />
-              <p>Ver Tudo</p>
-            </div>
-          </div>
-        </div>
-      </TitleList>
+      <TitleList name="MAIS VENDIDOS" />
+
       <ul className="container-list">
         {moreSalesData?.map((elem, index) =>
           elem.promotion ? (

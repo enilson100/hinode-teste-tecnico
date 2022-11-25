@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TitleList = styled.div`
+export const TitleListStyle = styled.div`
   display: flex;
   height: 46px;
   justify-content: center;

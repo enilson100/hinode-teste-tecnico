@@ -29,3 +29,7 @@ export interface IHint {
   category: string;
   img: string;
 }
+
+export interface ITitleProps {
+  name: string;
+}

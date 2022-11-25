@@ -5,6 +5,7 @@ import BannerFirst from "../../components/Banner/Banner-First";
 import FooterFirst from "../../components/Footer/Footer-First";
 import ListCard from "../../components/ListCard/ListCard-First";
 import ListCardHint from "../../components/ListCardHint";
+import BigCard from "../../components/BigCard";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,9 @@ const HomePage = () => {
         </section>
         <section>
           <ListCardHint />
+        </section>
+        <section>
+          <BigCard />
         </section>
       </main>
     </>
