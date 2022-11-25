@@ -19,6 +19,14 @@ import gel1 from "../assets/img-cards/gel1.svg";
 import gel2 from "../assets/img-cards/gel2.svg";
 import gel3 from "../assets/img-cards/gel3.svg";
 import gel4 from "../assets/img-cards/gel4.svg";
+import lattitude from "../assets/img-cards/lattitude-exp.svg";
+import empirevip from "../assets/img-cards/empire-vip.svg";
+import empire from "../assets/img-cards/empire.svg";
+import lattitudestam from "../assets/img-cards/lattitude-stamina.svg";
+import empiregold from "../assets/img-cards/empire-gold.svg";
+import lattitudecol from "../assets/img-cards/lattitude-col.svg";
+import ella from "../assets/img-cards/ella.svg";
+import spot from "../assets/img-cards/spot.svg";
 
 const products: IProducts[] = [
   {
@@ -227,7 +235,7 @@ const products: IProducts[] = [
     infoAdd: "100ML",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/lattitude-exp.svg",
+    img: `${lattitude}`,
     discount: undefined,
     portion: 2,
   },
@@ -237,7 +245,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/empire-vip.svg",
+    img: `${empirevip}`,
     discount: undefined,
     portion: 2,
   },
@@ -247,7 +255,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/empire.svg",
+    img: `${empire}`,
     discount: undefined,
     portion: 2,
   },
@@ -257,7 +265,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/lattitude-stamina.svg",
+    img: `${lattitudestam}`,
     discount: undefined,
     portion: 2,
   },
@@ -267,7 +275,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/empire-gold.svg",
+    img: `${empiregold}`,
     discount: undefined,
     portion: 2,
   },
@@ -277,7 +285,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/lattitude-col.svg",
+    img: `${lattitudecol}`,
     discount: undefined,
     portion: 2,
   },
@@ -287,7 +295,7 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/ella.svg",
+    img: `${ella}`,
     discount: undefined,
     portion: 2,
   },
@@ -297,7 +305,7 @@ const products: IProducts[] = [
     infoAdd: "75ml",
     promotion: undefined,
     category: "fragrances",
-    img: "../assets/img-cards/spot.svg",
+    img: `${spot}`,
     discount: undefined,
     portion: 2,
   },

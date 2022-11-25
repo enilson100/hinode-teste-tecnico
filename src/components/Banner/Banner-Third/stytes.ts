@@ -9,7 +9,7 @@ export const SectionBannerThird = styled.section`
   img {
     width: 100%;
     height: 868px;
-    object-fit: cover;
+    object-fit: contain;
   }
   .banner-third-info {
     width: 50%;

@@ -12,6 +12,8 @@ import BannerSecond from "../../components/Banner/Banner-Second";
 import ListCardFourth from "../../components/ListCard/ListCard-Fourth";
 import ListCardFifth from "../../components/ListCard/ListCard-Fifth";
 import BannerThird from "../../components/Banner/Banner-Third";
+import ListCardSixth from "../../components/ListCard/ListCard-Sixth";
+import ListCardSeventh from "../../components/ListCard/ListCard-Seventh";
 
 const HomePage = () => {
   return (
@@ -48,6 +50,10 @@ const HomePage = () => {
         </section>
         <section>
           <BannerThird />
+        </section>
+        <section>
+          <ListCardSixth />
+          <ListCardSeventh />
         </section>
       </main>
     </>
