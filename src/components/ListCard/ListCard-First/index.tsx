@@ -5,6 +5,7 @@ import { SectionListFirst } from "./styles";
 import { AiOutlineEye } from "react-icons/ai";
 import { TitleList } from "../../TitleList/styles";
 import Card from "../../Card";
+import CardPromotion from "../../CardPromotion";
 
 const ListCard = () => {
   const [moreSalesData, setMoreSaleData] = useState<IProducts[]>([]);
@@ -14,6 +15,7 @@ const ListCard = () => {
       productsData.filter((elem) => elem.category === "more sales")
     );
   };
+
   useEffect(() => {
     moreSalesFiltered(products);
   }, []);
@@ -32,18 +34,27 @@ const ListCard = () => {
         </div>
       </TitleList>
       <ul className="container-list">
-        {moreSalesData?.map((elem, index) => {
-          return (
+        {moreSalesData?.map((elem, index) =>
+          elem.promotion ? (
+            <CardPromotion
+              key={index}
+              name={elem.name}
+              price={elem.price}
+              promotion={elem.promotion}
+              discount={elem.discount}
+              img={elem.img}
+              infoAdd={elem.infoAdd}
+            />
+          ) : (
             <Card
               key={index}
               name={elem.name}
               price={elem.price}
               infoAdd={elem.infoAdd}
-              category={elem.category}
               img={elem.img}
             />
-          );
-        })}
+          )
+        )}
       </ul>
     </SectionListFirst>
   );

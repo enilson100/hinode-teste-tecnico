@@ -12,7 +12,7 @@ const products: IProducts[] = [
     promotion: "29,90",
     category: "more sales",
     img: `${esponja}`,
-    discount: undefined,
+    discount: "-20",
     portion: 2,
   },
   {

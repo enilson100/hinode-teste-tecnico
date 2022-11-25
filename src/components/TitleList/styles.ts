@@ -12,7 +12,7 @@ export const TitleList = styled.div`
     font-style: normal;
     font-weight: 300;
     font-size: 46px;
-    margin-left: 340px;
+    margin-left: 380px;
     letter-spacing: 3px;
     color: var(--color-black);
     text-align: center;
@@ -23,7 +23,7 @@ export const TitleList = styled.div`
     align-items: flex-end;
     cursor: pointer;
     .div-end {
-      margin-left: 290px;
+      margin-left: 350px;
       display: flex;
       align-items: center;
       gap: 5px;

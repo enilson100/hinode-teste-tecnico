@@ -75,5 +75,18 @@ export const LiCard = styled.li`
     height: 58px;
     background: #ffffff;
     border: 2px solid #f2994a;
+
+    font-family: var(--font-main);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.7143px;
+    line-height: 18px;
+    color: #f2994a;
+    text-align: center;
+  }
+  button:hover {
+    transition: 1s;
+    background: #f2994a;
+    color: var(--color-white);
   }
 `;
