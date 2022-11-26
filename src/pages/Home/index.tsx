@@ -1,6 +1,6 @@
-import FirstHeader from "../../components/Header/First-Header";
-import SecondHearder from "../../components/Header/Second-Header";
-import ThirdHeader from "../../components/Header/Third-Header";
+import FirstHeader from "../../components/Header/Header-First";
+import SecondHearder from "../../components/Header/Header-Second";
+import ThirdHeader from "../../components/Header/Header-Third";
 import BannerFirst from "../../components/Banner/Banner-First";
 import FooterFirst from "../../components/Footer/Footer-First";
 import ListCardFirst from "../../components/ListCard/ListCard-First";
@@ -15,6 +15,7 @@ import BannerThird from "../../components/Banner/Banner-Third";
 import ListCardSixth from "../../components/ListCard/ListCard-Sixth";
 import ListCardSeventh from "../../components/ListCard/ListCard-Seventh";
 import ListCardEighth from "../../components/ListCard/ListCard-Eighth";
+import FooterSecond from "../../components/Footer/Footer-second";
 
 const HomePage = () => {
   return (
@@ -60,6 +61,9 @@ const HomePage = () => {
           <ListCardEighth />
         </section>
       </main>
+      <footer>
+        <FooterSecond />
+      </footer>
     </>
   );
 };
