@@ -33,6 +33,12 @@ const BannerFirst = () => {
           <MdOutlineArrowForwardIos className="icon-arrow" />
         </div>
       </div>
+      <div className="ball-slider">
+        <div className="ball-checked"></div>
+        <div className="ball"></div>
+        <div className="ball"></div>
+        <div className="ball"></div>
+      </div>
     </SectionBannerFirst>
   );
 };

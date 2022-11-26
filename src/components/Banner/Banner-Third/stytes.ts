@@ -3,20 +3,21 @@ import styled from "styled-components";
 export const SectionBannerThird = styled.section`
   width: 100vw;
   display: flex;
+  margin-bottom: 60px;
   .div-img {
     width: 50%;
   }
   img {
     width: 100%;
     height: 868px;
-    object-fit: contain;
+    object-fit: cover;
   }
   .banner-third-info {
     width: 50%;
     display: flex;
     align-items: center;
     background: rgba(247, 247, 247, 0.4);
-    margin-left: 40px;
+    padding-left: 40px;
     div {
       display: flex;
       flex-direction: column;

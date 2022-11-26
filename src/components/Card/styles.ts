@@ -9,17 +9,23 @@ export const LiCard = styled.li`
     height: 311px;
     background-color: rgba(247, 247, 247, 0.5);
     border: 0.5px solid #f2f2f2;
-    .div-icon {
-      padding: 15px 15px 0px 0px;
-
-      display: flex;
-      justify-content: end;
-      .icon-heart {
-        width: 25px;
-        height: 25px;
-        color: var(--gray-1);
-      }
+  }
+  .div-img-new {
+    width: 100%;
+    height: 311px;
+    background: rgba(255, 255, 255, 0.4);
+    border: 0.5px solid #ffffff;
+  }
+  .div-icon {
+    padding: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: end;
+    .icon-heart {
+      width: 25px;
+      height: 25px;
+      color: var(--gray-1);
     }
+
     figure {
       width: 100%;
       padding-top: 20px;

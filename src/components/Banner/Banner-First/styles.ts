@@ -5,6 +5,7 @@ export const SectionBannerFirst = styled.section`
   width: 100vw;
   height: 765px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background-image: url(${woman});
@@ -69,6 +70,33 @@ export const SectionBannerFirst = styled.section`
       text-transform: uppercase;
       color: var(--color-white);
       border: 2px solid var(--color-white);
+      :hover {
+        transition: 1s;
+        background-color: #d5b69a;
+      }
     }
+  }
+  .ball-slider {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    width: 100%;
+    gap: 15px;
+  }
+  .ball-checked {
+    width: 22.5px;
+    height: 12px;
+
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .ball {
+    height: 10.5px;
+    width: 10.5px;
+    border-radius: 50%;
+    border: 1.5px solid #ffffff;
+    left: 500px;
   }
 `;

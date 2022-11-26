@@ -4,8 +4,8 @@ export const ContainerBigCard = styled.div`
   display: flex;
   width: 100vw;
   margin: 100px 0px 100px 0px;
-  justify-content: center;
-
+  align-items: center;
+  flex-direction: column;
   height: 781px;
   img {
     width: 557px;
@@ -95,6 +95,19 @@ export const ContainerBigCard = styled.div`
       transition: 1s;
       background: #f2994a;
       color: var(--color-white);
+    }
+  }
+  .div-balls {
+    margin-top: -200px;
+  }
+  .div-arrow {
+    display: flex;
+    .arrow {
+      margin: 350px 30px;
+      width: 35.37px;
+      height: 39.88px;
+      color: #bdbdbd;
+      cursor: pointer;
     }
   }
 `;

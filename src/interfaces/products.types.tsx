@@ -3,6 +3,7 @@ export interface IPropsCard {
   price: string;
   infoAdd: string | undefined;
   img: string;
+  category: string;
 }
 export interface IPropsCardPromotion {
   name: string;

@@ -3,10 +3,10 @@ import { LiCard } from "./styles";
 import { BsHeart } from "react-icons/bs";
 import { BsStarFill, BsStar } from "react-icons/bs";
 
-const Card = ({ name, price, infoAdd, img }: IPropsCard) => {
+const Card = ({ name, price, infoAdd, img, category }: IPropsCard) => {
   return (
     <LiCard>
-      <div className="div-img">
+      <div className={category === "new" ? "div-img-new" : "div-img"}>
         <div className="div-icon">
           <BsHeart className="icon-heart" />
         </div>

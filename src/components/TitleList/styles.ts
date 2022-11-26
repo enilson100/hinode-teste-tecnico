@@ -3,10 +3,20 @@ import styled from "styled-components";
 export const TitleListStyle = styled.div`
   display: flex;
   height: 46px;
-  flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   width: 1109px;
   margin-bottom: 40px;
+  .div-wrap-title {
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .div-wrap-title-new {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
 
   h1 {
     font-family: var(--font-secondary);
@@ -23,9 +33,9 @@ export const TitleListStyle = styled.div`
       display: flex;
       align-items: center;
       gap: 5px;
-      position: relative;
-      left: 630px;
-      bottom: 25px;
+
+      /* left: 630px; */
+      margin-top: 40px;
       color: var(--gray-1);
     }
     .icon-eyes {

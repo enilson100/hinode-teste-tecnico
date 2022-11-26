@@ -7,6 +7,16 @@ export const SectionList = styled.section`
   align-items: center;
   .container-list {
     display: flex;
+    .arrow {
+      margin: 150px 30px;
+      width: 35.37px;
+      height: 39.88px;
+      color: #bdbdbd;
+      cursor: pointer;
+    }
+  }
+  .list {
+    display: flex;
     gap: 15px;
   }
 `;

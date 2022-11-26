@@ -27,6 +27,10 @@ import empiregold from "../assets/img-cards/empire-gold.svg";
 import lattitudecol from "../assets/img-cards/lattitude-col.svg";
 import ella from "../assets/img-cards/ella.svg";
 import spot from "../assets/img-cards/spot.svg";
+import hnd from "../assets/img-cards/hnd.svg";
+import erva from "../assets/img-cards/erva.svg";
+import deso from "../assets/img-cards/deso.svg";
+import deo from "../assets/img-cards/deo.svg";
 
 const products: IProducts[] = [
   {
@@ -315,17 +319,17 @@ const products: IProducts[] = [
     infoAdd: "100ml",
     promotion: undefined,
     category: "new",
-    img: "../assets/img-cards/deo.svg",
+    img: `${deo}`,
     discount: undefined,
     portion: 2,
   },
   {
     name: "Desodorante Roll On Dynamic",
     price: "17,90",
-    infoAdd: undefined,
+    infoAdd: "70ml",
     promotion: undefined,
     category: "new",
-    img: "../assets/img-cards/deso.svg",
+    img: `${deso}`,
     discount: undefined,
     portion: 2,
   },
@@ -335,7 +339,7 @@ const products: IProducts[] = [
     infoAdd: "250ml",
     promotion: undefined,
     category: "new",
-    img: "../assets/img-cards/erva.svg",
+    img: `${erva}`,
     discount: undefined,
     portion: 2,
   },
@@ -345,7 +349,7 @@ const products: IProducts[] = [
     infoAdd: " 450g",
     promotion: undefined,
     category: "new",
-    img: "../assets/img-cards/hnd.svg",
+    img: `${hnd}`,
     discount: undefined,
     portion: 2,
   },

@@ -5,6 +5,7 @@ export const SectionBannerSecond = styled.section`
   width: 100vw;
   height: 813px;
   background: url(${womanrelaxing});
+  margin-bottom: 60px;
   .banner-info {
     height: 100%;
     display: flex;
@@ -51,5 +52,9 @@ export const SectionBannerSecond = styled.section`
 
     line-height: 18px;
     color: var(--color-white);
+    :hover {
+      transition: 1s;
+      background-color: #d5b69a;
+    }
   }
 `;

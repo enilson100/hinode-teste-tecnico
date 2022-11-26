@@ -5,7 +5,13 @@ import { ITitleProps } from "../../interfaces/products.types";
 const TitleList = ({ name }: ITitleProps) => {
   return (
     <TitleListStyle>
-      <div className="div-wrap-title">
+      <div
+        className={
+          name === "ACABARAM DE CHEGAR"
+            ? "div-wrap-title-new"
+            : "div-wrap-title"
+        }
+      >
         <h1>{name}</h1>
         <div>
           <div className="div-end">
